@@ -2,10 +2,10 @@
 #include <stdlib.h>
 #include <string.h>
 struct Customer {
-int accountNumber;
-char name[100];
-float balance;
-};
+    int accountNumber;
+    char name[100];
+    float balance;
+   };
 void createAccount(struct Customer *customers, int *count) {
     if (*count >= 100) {
         printf("Customer database is full. Cannot create more accounts.\n");
